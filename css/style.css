@@ -1,0 +1,111 @@
+.wrapper {
+  box-sizing: border-box;
+  display: flex;
+  min-width: 80vw;
+  max-width: 80vw;
+  padding: 0;
+  margin: 4% auto;
+  border-radius: 16px;
+  box-shadow: 0 0 24px rgba(108, 118, 160, 0.6);
+}
+.content {
+  margin: 0;
+  padding: 2%;
+}
+.beta {
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-align: end;
+}
+.person__photo-name {
+  display: flex;
+  align-items: last baseline;
+}
+.person__photo {
+  width: 30%;
+}
+.person__photo img {
+  width: 100%;
+}
+.person__name {
+  padding: 0 12%;
+  font-size: 5rem;
+  font-weight: 200;
+}
+.cv__category-title {
+  margin: 6% 2% 2% 14%;
+  font-size: 3rem;
+}
+.person__target {
+  padding: 4% 0;
+  font-size: 1.8rem;
+  font-style: italic;
+  line-height: 3rem;
+  text-align: end;
+}
+.person__clickable-icons {
+  display: flex;
+  justify-content: space-between;
+  min-height: 7vh;
+  padding: 0;
+}
+.person__clickable-icons__left-block {
+  display: flex;
+  justify-content: center;
+  min-height: 6vh;
+}
+.person__clickable-icons__left-block .clickable-icon a i img:nth-child(1) {
+  display: block;
+  min-height: 4.8vh;
+}
+.person__clickable-icons__left-block .clickable-icon a i img:nth-child(3) {
+  display: block;
+  min-height: 5vh;
+  max-height: 5.5vh;
+}
+.person__clickable-icons__right-block {
+  display: flex;
+  justify-content: center;
+  min-height: 6vh;
+}
+.person__clickable-icons__right-block__left-bottom {
+  display: flex;
+  justify-content: center;
+}
+.person__clickable-icons__right-block__right-top {
+  display: flex;
+  justify-content: center;
+}
+.clickable-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 5vh;
+  min-width: 5.6vh;
+}
+.clickable-icon .phone-number {
+  font-size: 4vh;
+  padding: 0 0.8vw 0 0.4vw;
+}
+.clickable-icon a i img {
+  display: block;
+  min-height: 4vh;
+  max-height: 4vh;
+}
+.cv__category-string a,
+.person__education-string a {
+  color: rgb(108, 118, 160);
+  text-decoration: none;
+}
+.cv__category-string {
+  padding: 0;
+}
+.person__education-string {
+  padding: 0;
+}
+.person__language-string {
+  padding: 0;
+}
+.willing-string {
+  padding: 4% 0;
+}

@@ -1,0 +1,89 @@
+@media only screen and (max-width: 1440px) {
+  .person__clickable-icons {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .cv__category-string,
+  .person__education-string,
+  .person__language-string {
+    font-size: 2rem;
+  }
+  .clickable-icon a i img {
+    min-height: 4vh;
+    max-height: 4vmax;
+  }
+}
+
+/* @media only screen and (max-width: 1024px) {} */
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .wrapper {
+    min-width: 92vw;
+    max-width: 92vw;
+  }
+  .clickable-icon .phone-number {
+    font-size: 4vmax;
+    padding: 0 0.8vw 0 0.4vw;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    min-width: 94vw;
+    max-width: 94vw;
+    border-radius: 12px;
+    box-shadow: 0 0 8px #027BCE;
+  }
+  .content {
+    min-width: 90vw;
+    max-width: 90vw;
+    padding: 2%;
+  }
+  .cv__category-string,
+  .person__education-string,
+  .person__language-string {
+    padding: 1%;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .person__clickable-icons__right-block {
+    flex-direction: column-reverse;
+  }
+  .person__clickable-icons__right-block__left-bottom {
+    padding: 4%;
+  }
+  .person__clickable-icons__left-block div:nth-child(odd) {
+    display: none;
+  }
+  .person__name {
+    margin: 6% 0;
+    font-size: 4rem;
+    font-weight: 300;
+    text-align: center;
+  }
+  .cv__category-title {
+    margin: 0 auto;
+    padding: 14% 0 6% 0;
+    width: 70%;
+    font-size: 2rem;
+    line-height: 2.6rem;
+    text-align: center;
+  }
+  .person__target {
+    padding: 12% 2% 10% 20%;
+    font-size: 1.4rem;
+  }  
+  .project-card {
+    padding: 1%;
+  }
+}
+
+/* Custom, iPhone Retina */
+/* @media only screen and (max-width: 320px) {} */
