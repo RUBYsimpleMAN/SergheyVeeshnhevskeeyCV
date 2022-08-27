@@ -6,7 +6,8 @@
 @media only screen and (max-width: 1280px) {
   .cv__category-string,
   .person__education-string,
-  .person__language-string {
+  .person__language-string,
+  .willing-string {
     font-size: 2rem;
   }
   .clickable-icon a i img {
@@ -44,10 +45,14 @@
   }
   .cv__category-string,
   .person__education-string,
-  .person__language-string {
+  .person__language-string,
+  .willing-string {
     padding: 1%;
     font-size: 1.4rem;
     line-height: 2.6rem;
+  }
+  .person__photo {
+    display: none;
   }
 }
 

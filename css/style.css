@@ -92,6 +92,11 @@
   min-height: 4vh;
   max-height: 4vh;
 }
+.horisontal-line {
+  border-color: rgb(108, 118, 160);
+  background-color: rgb(108, 118, 160);
+  color: rgb(108, 118, 160);
+}
 .cv__category-string a,
 .person__education-string a {
   color: rgb(108, 118, 160);
@@ -108,4 +113,5 @@
 }
 .willing-string {
   padding: 4% 0;
+  text-align: center;
 }
