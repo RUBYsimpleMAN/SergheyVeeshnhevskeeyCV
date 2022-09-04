@@ -1,1 +1,1 @@
-This is a Serghey Veeshnhevskeey cv-project
+This is a Serghey Vheeshnhevskeey cv-project
